@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B1E7AE19B2915C00C04A5C"
-               BuildableName = "glut-test"
-               BlueprintName = "glut-test"
-               ReferencedContainer = "container:glut-test.xcodeproj">
+               BuildableName = "2d Normal-Point interpolation"
+               BlueprintName = "2d Normal-Point interpolation"
+               ReferencedContainer = "container:2d Normal-Point interpolation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B1E7AE19B2915C00C04A5C"
-            BuildableName = "glut-test"
-            BlueprintName = "glut-test"
-            ReferencedContainer = "container:glut-test.xcodeproj">
+            BuildableName = "2d Normal-Point interpolation"
+            BlueprintName = "2d Normal-Point interpolation"
+            ReferencedContainer = "container:2d Normal-Point interpolation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B1E7AE19B2915C00C04A5C"
-            BuildableName = "glut-test"
-            BlueprintName = "glut-test"
-            ReferencedContainer = "container:glut-test.xcodeproj">
+            BuildableName = "2d Normal-Point interpolation"
+            BlueprintName = "2d Normal-Point interpolation"
+            ReferencedContainer = "container:2d Normal-Point interpolation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B1E7AE19B2915C00C04A5C"
-            BuildableName = "glut-test"
-            BlueprintName = "glut-test"
-            ReferencedContainer = "container:glut-test.xcodeproj">
+            BuildableName = "2d Normal-Point interpolation"
+            BlueprintName = "2d Normal-Point interpolation"
+            ReferencedContainer = "container:2d Normal-Point interpolation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

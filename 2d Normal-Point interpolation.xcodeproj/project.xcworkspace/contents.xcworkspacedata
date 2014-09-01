@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:glut-test.xcodeproj">
+      location = "self:2d Normal-Point interpolation.xcodeproj">
    </FileRef>
 </Workspace>

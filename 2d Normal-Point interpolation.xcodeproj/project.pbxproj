@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4B1E7B319B2915C00C04A5C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B1E7B219B2915C00C04A5C /* OpenGL.framework */; };
 		E4B1E7B519B2915C00C04A5C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B1E7B419B2915C00C04A5C /* GLUT.framework */; };
-		E4B1E7B919B2915C00C04A5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B1E7B819B2915C00C04A5C /* main.cpp */; };
-		E4B1E7BB19B2915C00C04A5C /* glut_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4B1E7BA19B2915C00C04A5C /* glut_test.1 */; };
+		E4B1E7C319B2FB6400C04A5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B1E7C219B2FB6400C04A5C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,19 +19,16 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				E4B1E7BB19B2915C00C04A5C /* glut_test.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E4B1E7AF19B2915C00C04A5C /* glut-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "glut-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B1E7AF19B2915C00C04A5C /* 2d Normal-Point interpolation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2d Normal-Point interpolation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B1E7B219B2915C00C04A5C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		E4B1E7B419B2915C00C04A5C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		E4B1E7B719B2915C00C04A5C /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		E4B1E7B819B2915C00C04A5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E4B1E7BA19B2915C00C04A5C /* glut_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = glut_test.1; sourceTree = "<group>"; };
+		E4B1E7C219B2FB6400C04A5C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +47,7 @@
 		E4B1E7A619B2915C00C04A5C = {
 			isa = PBXGroup;
 			children = (
-				E4B1E7B619B2915C00C04A5C /* glut-test */,
+				E4B1E7C119B2FB6400C04A5C /* src */,
 				E4B1E7B119B2915C00C04A5C /* Frameworks */,
 				E4B1E7B019B2915C00C04A5C /* Products */,
 			);
@@ -60,7 +56,7 @@
 		E4B1E7B019B2915C00C04A5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4B1E7AF19B2915C00C04A5C /* glut-test */,
+				E4B1E7AF19B2915C00C04A5C /* 2d Normal-Point interpolation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,22 +70,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4B1E7B619B2915C00C04A5C /* glut-test */ = {
+		E4B1E7C119B2FB6400C04A5C /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E4B1E7B719B2915C00C04A5C /* utils.h */,
-				E4B1E7B819B2915C00C04A5C /* main.cpp */,
-				E4B1E7BA19B2915C00C04A5C /* glut_test.1 */,
+				E4B1E7C219B2FB6400C04A5C /* main.cpp */,
 			);
-			path = "glut-test";
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B1E7AE19B2915C00C04A5C /* glut-test */ = {
+		E4B1E7AE19B2915C00C04A5C /* 2d Normal-Point interpolation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B1E7BE19B2915C00C04A5C /* Build configuration list for PBXNativeTarget "glut-test" */;
+			buildConfigurationList = E4B1E7BE19B2915C00C04A5C /* Build configuration list for PBXNativeTarget "2d Normal-Point interpolation" */;
 			buildPhases = (
 				E4B1E7AB19B2915C00C04A5C /* Sources */,
 				E4B1E7AC19B2915C00C04A5C /* Frameworks */,
@@ -99,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "glut-test";
+			name = "2d Normal-Point interpolation";
 			productName = "glut-test";
-			productReference = E4B1E7AF19B2915C00C04A5C /* glut-test */;
+			productReference = E4B1E7AF19B2915C00C04A5C /* 2d Normal-Point interpolation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +107,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rhody Lugo";
 			};
-			buildConfigurationList = E4B1E7AA19B2915C00C04A5C /* Build configuration list for PBXProject "glut-test" */;
+			buildConfigurationList = E4B1E7AA19B2915C00C04A5C /* Build configuration list for PBXProject "2d Normal-Point interpolation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -125,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4B1E7AE19B2915C00C04A5C /* glut-test */,
+				E4B1E7AE19B2915C00C04A5C /* 2d Normal-Point interpolation */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B1E7B919B2915C00C04A5C /* main.cpp in Sources */,
+				E4B1E7C319B2FB6400C04A5C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +163,7 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -202,6 +197,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -215,21 +211,21 @@
 		E4B1E7BF19B2915C00C04A5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "2d Normal-Point interpolation";
 			};
 			name = Debug;
 		};
 		E4B1E7C019B2915C00C04A5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "2d Normal-Point interpolation";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B1E7AA19B2915C00C04A5C /* Build configuration list for PBXProject "glut-test" */ = {
+		E4B1E7AA19B2915C00C04A5C /* Build configuration list for PBXProject "2d Normal-Point interpolation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B1E7BC19B2915C00C04A5C /* Debug */,
@@ -238,13 +234,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B1E7BE19B2915C00C04A5C /* Build configuration list for PBXNativeTarget "glut-test" */ = {
+		E4B1E7BE19B2915C00C04A5C /* Build configuration list for PBXNativeTarget "2d Normal-Point interpolation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B1E7BF19B2915C00C04A5C /* Debug */,
 				E4B1E7C019B2915C00C04A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
