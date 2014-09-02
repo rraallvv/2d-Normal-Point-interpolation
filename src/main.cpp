@@ -29,7 +29,7 @@ inline void pointNormalInterpolation(float *x, float *x0, float *n0, float *x1, 
 
 void displayCall() {
 	static float t = 0;
-	t += 1.0e-3;
+	t += 1.0e-2;
 	
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glEnable(GL_DEPTH_TEST);
@@ -40,10 +40,10 @@ void displayCall() {
     
 	glColor3f(1,1,1);
 	
-	Vec2 x0 = {-1, 0};
-	Vec2 x1 = {+1, 0};
-	Vec2 n0 = {-cosf(M_PI*t), sinf(M_PI*t)};
-	Vec2 n1 = {cosf(M_PI*0.2*t), sinf(M_PI*0.2*t)};
+	Vec2 x0 = {-.5, 0};
+	Vec2 x1 = {+.5, 0};
+	Vec2 n0 = {-cosf(t)*cosf(M_PI_4), cosf(t)*sinf(M_PI_4)};
+	Vec2 n1 = {cosf(M_PI_4*t), sinf(M_PI_4*t)};
 	
 	glPointSize(4);
 	
