@@ -42,7 +42,7 @@ void displayCall() {
 	
 	Vec2 x0 = {-.5, 0};
 	Vec2 x1 = {+.5, 0};
-	Vec2 n0 = {-cosf(t)*cosf(M_PI_4), cosf(t)*sinf(M_PI_4)};
+	Vec2 n0 = {cosf(3*M_PI_4*t), sinf(3*M_PI_4*t)};
 	Vec2 n1 = {cosf(M_PI_4*t), sinf(M_PI_4*t)};
 	
 	glPointSize(4);
